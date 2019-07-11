@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: "dev"
+name: "dev"
+environment: "dev"
+
+server:
+  port: 9090
+
