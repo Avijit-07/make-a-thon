@@ -4,6 +4,6 @@
 
 # Technology:
 - We're going to use Spring boot along with Docker to deploy in Kubernetes Cluster.
-- On the UI side, we're still undecided on React or Angular(latest).
+- On the UI side, we're going to use Angular(latest) & Node.js as build tool.
 
 ### More details will be added soon
