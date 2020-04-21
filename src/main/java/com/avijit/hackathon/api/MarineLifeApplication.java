@@ -1,12 +1,13 @@
-package com.practice.spring.docker;
+package com.avijit.hackathon.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringDockerStarter {
+public class MarineLifeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringDockerStarter.class);
+        SpringApplication.run(MarineLifeApplication.class);
     }
+
 }

@@ -1,9 +1,8 @@
 spring:
   profiles:
     active: "dev"
-name: "dev"
-environment: "dev"
+  application:
+    name: "marinelife"
 
 server:
   port: 9090
-
