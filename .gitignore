@@ -1,2 +1,4 @@
 .idea/
 spring-docker.iml
+/target/
+/marinelife.iml
