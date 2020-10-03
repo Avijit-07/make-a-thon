@@ -1,2 +1,2 @@
-# In Learning stage
+FROM alpaine:base
 
