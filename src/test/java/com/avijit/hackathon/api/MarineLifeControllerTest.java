@@ -26,15 +26,15 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class MarineLifeControllerTest {
 
-    @Autowired
-    private MockMvc mockMvc;
+  @Autowired private MockMvc mockMvc;
 
-    @SneakyThrows
-    @Test
-    @DisplayName("Test")
-    @Order(1)
-    public void test() {
-        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/complaints"))
-                .andExpect(MockMvcResultMatchers.status().isOk());
-    }
+  @SneakyThrows
+  @Test
+  @DisplayName("Test")
+  @Order(1)
+  public void test() {
+    mockMvc
+        .perform(MockMvcRequestBuilders.get("/api/v1/complaints"))
+        .andExpect(MockMvcResultMatchers.status().isOk());
+  }
 }
